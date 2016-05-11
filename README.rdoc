@@ -47,10 +47,12 @@ Supplying priority countries to be placed at the top of the list:
 * Marat Galiev - https://github.com/maratgaliev
 * https://github.com/mstark
 * Adam St. John (https://github.com/astjohn)
+* Tim Heighes (https://github.com/sauy7)
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.7 - Added country_code_select_tag helper
 * 1.1.6 - Simplifying country code definition
 * 1.1.5 - Fixing support for Rails 4.2. Adding Kosovo country code
 * 1.1.4 - Fixed options being ignored when running Rails 4

@@ -5,6 +5,7 @@ require "i18n-country-translations"
 require "i18n_country_select/form_builder"
 require "i18n_country_select/form_helpers"
 require "i18n_country_select/instance_tag"
+require "actionview/helpers/form_tag_helper"
 
 ActionView::Base.send(:include, I18nCountrySelect::FormHelpers)
 if Rails::VERSION::MAJOR >= 4
